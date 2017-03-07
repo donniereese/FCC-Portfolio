@@ -1,0 +1,90 @@
+//************************************************
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+// Text & Font
+// Notes:
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+h1 {
+	font-family: Slabo, sans-serif;
+	font-size: 2.4em;
+	font-weight: 900;
+	text-align: center;
+}
+
+h2 {
+	font-family: Montserrat, sans-serif;
+	font-size: 2.6em;
+	font-weight: 700;
+}
+
+a {
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+label {
+	font-family: 'Roboto Slab', slab-serif;
+	font-weight: 700;
+}
+
+input,
+textarea {
+	font-family: Montserrat, sans-serif;
+	font-size: 1em;
+}
+
+textarea {
+	font-size: .65em;
+}
+
+button {
+	font-family: 'Roboto Slab', slab-serif;
+	font-weight: 400;
+}
+
+.page-header {
+	text-align: right;
+}
+
+.main-nav {
+	font-size: 1.2em;
+
+	a {
+		font-size: 1.25em;
+	}
+}
+
+.aside-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8em;
+	font-weight: 700;
+}
+
+.standout-nav a {
+	font-size: 1.45em;
+	padding: .45em .65em;
+}
+
+.fine-print {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.talkout {
+	font-size: 2rem;
+	text-align: left;
+}
+
+.contact-form {
+	label {
+		font-size: 2em;
+	}
+
+	button {
+		font-size: 1.6em;
+	}
+}
