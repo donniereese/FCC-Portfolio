@@ -126,36 +126,6 @@
 	overflow: hidden;
 }
 
-//************************************************
-// Forms & User Input
-//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-// Notes:
-//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
-label,
-input,
-textarea {
-	border: 0;
-	width: 100%;
-	margin-bottom: .5em;
-	display: block;
-}
-
-input,
-textarea {
-	padding: .65em .65em 0; // == .65em .65em 0 .65em
-
-	&:focus {
-		outline: none;
-	}
-}
-
-button {
-	padding: .2em .8em;
-}
-
-.contact-form textarea {
-	height: 7.4em;
-}
 
 
 //************************************************
@@ -212,16 +182,26 @@ button {
 		margin-bottom: 1.2em;
 	}
 
+	.hero-content .about-blurb,
+	.about-section .subsection,
+	.contact-section .contact-form {
+		width: 75%;
+	}
+
+	.hero-content {
+		padding-top: 4em;
+	}
+
+	.hero-content .about-blurb {
+		width: 60%;
+	}
+
 	.content-section {
 		padding: 1.6em;
 	}
 
 	.about-section {
 		padding: 3em;
-
-		.subsection {
-			width: 75%;
-		}
 	}
 
 	.portfolio-article {
@@ -232,7 +212,13 @@ button {
 
 		.contact-form {
 			margin: 0 auto;
-			width: 75%;
 		}
+	}
+}
+
+@media only screen and (min-width:1200px){
+	.hero-content .about-blurb {
+		width: 50%;
+		font-size: 3.2em;
 	}
 }

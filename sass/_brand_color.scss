@@ -33,7 +33,7 @@ textarea {
 
 input,
 textarea {
-	border-bottom: .25rem solid #000;
+	border-bottom: .25rem solid $color-dark;
 
 	&:focus {
 		border-bottom: .25rem solid #5863F8;
@@ -98,4 +98,13 @@ button {
 .talkout {
 	background: url('laboratory.donniereese.com/images/talkout.png') center center no-repeat;
 	background-size: 100%;
+}
+
+.about-blurb{
+	background: url('../images/blurb-accent.png') top left no-repeat;
+	background-size: 2em;
+}
+
+.link-to-more {
+
 }

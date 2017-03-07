@@ -17,19 +17,19 @@
 
 .hero-content {
 	width: 100%;
-	height: 80%;
+	// height: 80%;
 	max-height: 70vh;
 	text-align: center;
 	// display: block;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	display: flex;
-	flex-flow: row wrap;
+	// position: absolute;
+	// bottom: 0;
+	// right: 0;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 3em;
 
-	.hero-content {
-		flex-grow: 2;
-		flex-shrink: 1;
+	.hero-logo {
+		display: none;
 	}
 
 	.brand-header-logo {
@@ -43,20 +43,27 @@
 		display: inline-block;
 		max-height: 100%;
 		// width: 50%;
+		position: relative;
 	}
 
 	.about-blurb {
-		flex-grow: 1;
-	}
+		// margin: 1em;
+		margin: 0 auto;
+		padding-top: .75em;
+		display: block;
 
+		.link-to-more {
+			padding: .25em 1em;
+		}
+	}
 }
 
 .header-title,
 .main-nav,
 .main-nav a {
 	display: inline-block;
-	zoom: 1;
-	*display: inline;
+	// zoom: 1;
+	// *display: inline;
 }
 
 .main-nav {
@@ -73,4 +80,35 @@
 .standout-nav {
 	margin: 1em;
 	padding: .65em;
+}
+
+//************************************************
+// Forms & User Input
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+// Notes:
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+label,
+input,
+textarea {
+	border: 0;
+	width: 100%;
+	margin-bottom: .5em;
+	display: block;
+}
+
+input,
+textarea {
+	padding: .65em .65em 0; // == .65em .65em 0 .65em
+
+	&:focus {
+		outline: none;
+	}
+}
+
+button {
+	padding: .2em .8em;
+}
+
+.contact-form textarea {
+	height: 7.4em;
 }
