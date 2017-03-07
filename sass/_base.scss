@@ -1,0 +1,26 @@
+//************************************************
+// Base Elements
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+// Notes:
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+body {
+	background: $color-light;
+	font-family: 'Roboto Slab', slab-serif;
+	font-weight: 400;
+}
+
+p {
+	margin: .45em 0 1.6em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {}
+
+h2 {
+	margin-bottom: .65em;
+}
