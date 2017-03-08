@@ -82,6 +82,47 @@
 	padding: .65em;
 }
 
+.portfolio-section {
+	// display: inline-grid;
+}
+
+.portfolio-article {
+	background: $color-light;
+	border: 1px solid darken($color-light, 20%);
+	border-radius: .5em;
+	margin: 0 0 .65em;
+	padding: .65em;
+	min-width: 25%;
+	min-height: 24em;
+	position: relative;
+	float: left;
+	width: 100%;
+
+	h3 {
+		background: $color-light;
+		padding: .45em;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	img {
+
+	}
+
+	.tags {
+		li {
+			background: $brand-primary;
+			color: $brand-dark;
+			font-size: .8em;
+			padding: .4em .6em;
+			border: 2px solid $brand-secondary;
+			border-radius: .2em;
+		}
+	}
+}
+
 //************************************************
 // Forms & User Input
 //-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

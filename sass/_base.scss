@@ -24,3 +24,24 @@ h1 {}
 h2 {
 	margin-bottom: .65em;
 }
+
+ul, li {
+	display: block;
+	list-style: none;
+}
+
+ul.list {
+	li {
+		list-style: cicle;
+	}
+}
+
+ul.horizontal {
+	li {
+		display: inline-block;
+	}
+}
+
+ol.list {
+	border: 1px solid $brand-light;
+}

@@ -47,6 +47,19 @@ img {
 h2 {
   margin-bottom: .65em; }
 
+ul, li {
+  display: block;
+  list-style: none; }
+
+ul.list li {
+  list-style: cicle; }
+
+ul.horizontal li {
+  display: inline-block; }
+
+ol.list {
+  border: 1px solid #efe9f4; }
+
 .hero-section {
   position: relative;
   height: 90vh; }
@@ -94,6 +107,32 @@ h2 {
 .standout-nav {
   margin: 1em;
   padding: .65em; }
+
+.portfolio-article {
+  background: #fff;
+  border: 1px solid #cccccc;
+  border-radius: .5em;
+  margin: 0 0 .65em;
+  padding: .65em;
+  min-width: 25%;
+  min-height: 24em;
+  position: relative;
+  float: left;
+  width: 100%; }
+  .portfolio-article h3 {
+    background: #fff;
+    padding: .45em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+  .portfolio-article .tags li {
+    background: #1ed9af;
+    color: #171d1d;
+    font-size: .8em;
+    padding: .4em .6em;
+    border: 2px solid #1abe99;
+    border-radius: .2em; }
 
 label,
 input,
@@ -157,7 +196,8 @@ button {
 
 .hero-section {
   background-color: #1B1E20;
-  background-color: #EDC10C; }
+  background-color: #EDC10C;
+  background-image: url("../images/wiggle-bg.svg"); }
 
 .main-nav {
   background: #1ed9af;
@@ -298,12 +338,6 @@ button {
 .content-section {
   padding: 1em; }
 
-.portfolio-article {
-  width: 50%;
-  float: left; }
-  .portfolio-article img {
-    vertical-align: bottom; }
-
 .contact-form {
   margin-top: 1.4em; }
 
@@ -331,10 +365,6 @@ button {
 .page-header {
   transition: height 500ms ease-out 1s; }
 
-@media only screen and (min-width: 480px) {
-  .portfolio-article {
-    width: 33.3333333%; } }
-
 @media only screen and (min-width: 768px) {
   h2 {
     margin-bottom: 1.2em; }
@@ -350,8 +380,6 @@ button {
     padding: 1.6em; }
   .about-section {
     padding: 3em; }
-  .portfolio-article {
-    width: 25%; }
   .contact-section .contact-form {
     margin: 0 auto; } }
 
